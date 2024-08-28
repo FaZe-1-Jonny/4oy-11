@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+main{
+    height: 1024px;
+    background-image: url(imgs/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.section2{
+    display: flex;
+    align-items: center;
+}
+.nav__logo{
+    margin-right: 68px;
+    width: 50px;
+    height: 50px;
+}
+.nav__forfree{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 159, 245, 0.71);
+    box-shadow: 0px 4px 4px 0px rgba(218, 211, 255, 1);
+    border-radius: 10px;
+    border: none;
+    padding: 14px 19px;
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+}
+.nav__steam{
+    margin-right: 21px;
+}
+.nav__mplayer{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: left;
+    color: rgba(213, 213, 214, 1);
+    text-shadow: 0px 4px 4px 0px black;
+}
+.section2 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: left;
+    color: rgba(213, 213, 214, 1);
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 1);
+    margin-right: 5px;
+}
+.nav__down{
+    margin-top: 6px;
+}
+.main__title{
+    display: flex;
+    justify-content: center;
+    margin-top: 163px;
+}
+.main__bestp{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 198, 17, 1);
+    border: 11px solid rgba(90, 85, 85, 1);
+    border-radius: 100px;
+    padding: 30px 40px;
+    text-shadow: 0px 4px 4px 0px rgba(0, 71, 255, 1);
+}
+.main__players{
+    margin-top: 132px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 52px;
+    margin-right: 52px;
+}
+.main__players .card{
+    box-shadow: 8px 7px 20px 0px rgba(255, 255, 255, 1);
+    background-color: rgba(31, 31, 31, 1);
+}
+.main__players .card p{
+    text-shadow: 0px 4px 4px 0px rgba(255, 194, 0, 1);
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 42.19px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 15px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.information{
+    background-color: rgba(0, 0, 0, 1);
+    padding-top: 58px;
+    padding-left: 58px;
+    padding-right: 58px;
+    height: 1042px;
+}
+.info__title{
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 75px;
+    text-align: left;
+    color: rgba(90, 85, 85, 1);    
+    text-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 1);
+    text-align: center;
+}
+.info__card{
+    margin-top: 58px;
+    display: flex;
+}
+
+.info__card .section2 p{
+    font-family: Roboto;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 31.64px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);   
+    margin-left: 87px;
+    margin-bottom: 104px; 
+}
+.info__card .section1 p{
+    font-family: Roboto;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 31.64px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);   
+    margin-right: 87px;
+    margin-bottom: 104px; 
+}
+.info__card .section2 img{
+    margin-top: 60px;
+}
+.fcard__btn, .scard__btn{
+    font-family: Roboto;
+font-size: 27px;
+font-weight: 700;
+line-height: 31.64px;
+color: rgba(0, 0, 0, 1);
+background-color: rgba(255, 194, 0, 1);;
+padding: 14px 71px;
+box-shadow: 0px 7px 12.8px 0px rgba(255, 255, 255, 1);
+border: none;
+}
+.fcard__btn{
+    margin-left: 656px;
+    margin-top: -58px;
+    position: absolute;
+}
+.scard__btn{
+    margin-top: -60px;
+    position: absolute;
+}
+.fcard__btn:hover{
+    background-color: rgba(83, 83, 83, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.scard__btn:hover{
+    background-color: rgba(83, 83, 83, 1);
+    color: rgba(255, 255, 255, 1);
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 51px 58px;
+    background-color: rgba(255, 198, 17, 1);
+    align-items: center;
+    text-align: center;
+}
+.footer__contacts{
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.footer__contacts img{
+margin-right: 26px;
+width: 45px;
+height: 45px;
+}
